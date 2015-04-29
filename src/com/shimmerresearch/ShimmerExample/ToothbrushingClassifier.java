@@ -9,8 +9,12 @@ import java.util.Queue;
  * Classifies Toothbrushing 
  */
 public class ToothbrushingClassifier {
+
 	boolean[] toothArray = new boolean[30];
 	int toothIndex = 0;
+
+	
+
 	/**
 	 * Classifies a queue of size 50
 	 * @param q : queue to be classified
@@ -42,6 +46,7 @@ public class ToothbrushingClassifier {
 		if(count > 4  && Math.abs(sum)<2){
 			classified = true;
 		}
+
 		buildToothArray(classified);
 		return classified;
 	}
@@ -81,6 +86,10 @@ public class ToothbrushingClassifier {
 			System.out.println("-------------------------------------------------------------------------------------------------------------------NOT CLASSIFIED LONG TERM");
 		}
 	}
+
+		return classified;
+	}
+
 	
 	
 }
