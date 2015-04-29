@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, ShimmerExampleActivity!</string>
+    <string name="app_name">ShimmerExample</string>
+    <color name="white">#FFFFFF</color>
+    <color name="blue">#3366FF</color>
+    <string name="MolarMinder">MolarMinder</string>
+    <color name="orange">#FF6600</color>
+    <string name="desc">An Image in Our App</string>
+    <string name="shimmer_connect">Connect to Shimmer</string>
+    <string name="listen_button">Listen for Data</string>
+	<style name="LinearSpacing">
+		<item name="android:layout_marginTop">10dp</item>
+	</style>
+	<string name="no_classification">No Classification</string>
+    
+</resources>
