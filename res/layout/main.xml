@@ -22,46 +22,45 @@
         android:layout_height="wrap_content"
         android:contentDescription="@string/desc"
         android:background="#3366FF"
-        android:src="@drawable/tooth" />
+        android:src="@drawable/tooth2" />
     
-    <LinearLayout 
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical"  >
-        
-        <Button
-	        android:id="@+id/connect_button"
-	        android:layout_width="213dp"
-	        android:layout_height="25dp"
-	        android:background="@color/orange"
-	        android:gravity="center_horizontal"
-	        android:layout_gravity="center_horizontal"
-	        android:onClick="onConnectionButtonClick"
-	        android:text="@string/shimmer_connect"
-	        android:textColor="@color/blue"
-	        style="@style/LinearSpacing"
-	        android:textColorHint="@color/orange" />
+        android:orientation="vertical" >
 
-	    <Button
-	        android:id="@+id/listen_button"
-	        android:layout_width="wrap_content"
-	        android:layout_height="wrap_content"
-	        android:background="@color/orange"
-	        android:layout_gravity="center_horizontal"
-	        android:onClick="onListenButtonClick"
-	        android:textColor="@color/blue"
-	        style="@style/LinearSpacing"
-	        android:textColorHint="@color/orange"
-	        android:text="@string/listen_button" />
-	    
-	    <TextView
-	        android:id="@+id/classification_text"
-	        android:layout_width="fill_parent"
-	        android:layout_height="fill_parent"
-	        android:gravity="bottom|center_horizontal"
-	        android:text="@string/no_classification" />
-	        
+        <Button
+            android:id="@+id/connect_button"
+            style="@style/LinearSpacing"
+            android:layout_width="213dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/orange"
+            android:gravity="center_horizontal"
+            android:onClick="onConnectionButtonClick"
+            android:text="@string/shimmer_connect"
+            android:textColor="@color/blue"
+            android:textColorHint="@color/orange" />
+
+        <Button
+            android:id="@+id/listen_button"
+            style="@style/LinearSpacing"
+            android:layout_width="wrap_content"
+            android:layout_height="23dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/orange"
+            android:onClick="onListenButtonClick"
+            android:text="@string/listen_button"
+            android:textColor="@color/blue"
+            android:textColorHint="@color/orange" />
+
+        <TextView
+            android:id="@+id/classification_text"
+            android:layout_width="fill_parent"
+            android:layout_height="346dp"
+            android:layout_weight="0.15"
+            android:gravity="bottom|center_horizontal"
+            android:text="@string/no_classification" />
     </LinearLayout>
-   
     
 </FrameLayout>

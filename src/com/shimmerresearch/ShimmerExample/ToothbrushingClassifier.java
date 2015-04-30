@@ -87,8 +87,6 @@ public class ToothbrushingClassifier {
 		}
 	}
 
-		return classified;
-	}
 
 	
 	
